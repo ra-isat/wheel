@@ -403,10 +403,6 @@ input[type="checkbox"] {
 .checkbox input:checked ~ span::before {
     content: url(./icons/checked.svg);
 }
-.checkbox span::before {
-    z-index: 10;
-    padding-bottom: 100%;
-}
 /* .focus-block { 
     min-width: 356px;
     height: 148px;
