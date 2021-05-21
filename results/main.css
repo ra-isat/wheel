@@ -356,7 +356,6 @@ img {
     height: 20px;
     border-radius: 5px;
     background: #FE6D6D;
-
 }
 .analytics_paragraph .blue_square{
     width: 20px;
@@ -403,6 +402,10 @@ input[type="checkbox"] {
 }
 .checkbox input:checked ~ span::before {
     content: url(./icons/checked.svg);
+}
+.checkbox span::before {
+    z-index: 10;
+    padding-bottom: 100%;
 }
 /* .focus-block { 
     min-width: 356px;
